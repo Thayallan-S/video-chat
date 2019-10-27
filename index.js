@@ -8,7 +8,7 @@ navigator.mediaDevices.getUserMedia({
 
     // Configures the signaling server.
     let hub = signalhub('video-chat', [
-        'http://localhost:8080'
+        ' http://127.0.0.1:8080'
     ]);
 
     // Gives the stream to the swarm, to give to all the peers.
